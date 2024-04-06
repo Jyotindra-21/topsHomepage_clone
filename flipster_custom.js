@@ -1,0 +1,20 @@
+$('.flipster').flipster({
+    itemContainer: 'ul',
+    itemSelector: 'li',
+    start: 'center',
+    fadeIn: 400,
+    loop: false,
+    autoplay: false,
+    pauseOnHover: true,
+    style: 'coverflow',
+    spacing: -0.6,
+    click: true,
+    keyboard: true,
+    scrollwheel: true,
+    touch: true,
+    nav: false,
+    buttons: true,
+    buttonPrev: 'Previous',
+    buttonNext: 'Next',
+    onItemSwitch: false
+});
